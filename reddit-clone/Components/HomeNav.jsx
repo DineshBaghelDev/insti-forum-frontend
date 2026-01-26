@@ -1,7 +1,11 @@
+import useForum from "./context"
+
 function HomeNav()
 {
+  const{isOpenCC,OpenCC,CloseCC}=useForum()
+  
     return(
-        <div className="w-full top-0 left-0   h-[129px] fixed z-50 bg-[#FFFFFF] flex justify-between pr-[133px] pl-[126px] box-border">
+        <div className={`w-full top-0 left-0 h-[129px] z-30 bg-[#FFFFFF] flex justify-between pr-[133px] pl-[126px] box-border transition-all duration-0 ${isOpenCC? 'absolute':'fixed'}`}>
                 <div className="flex flex-col justify-center items-center">
                   <div className=" w-[339px] h-[53px] text-[48px] text-[#52BFAF] font-[400] tracking-wider text-start">
                   INSTI FORUM
