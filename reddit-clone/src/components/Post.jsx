@@ -16,7 +16,7 @@ function Post()
             </div>
         <div className="ml-[116px] w-[1198px] min-h-[377px] rounded-[20px] bg-[#FFFFFF] pt-[29px] mt-[70px] mb-[126px] box-border pb-[59px]">
             <div className="flex mt-[24px] ml-[44px] gap-[20px] mb-[36px]">
-                <img src='images/icon (1).svg' className="h-[38px] w-[38px]"></img>
+                <img src='/images/icon (1).svg' className="h-[38px] w-[38px]"></img>
                 <div className="w-[167px] h-[30px] font-[400] text-[24px] text-[#000000] ">Comments (2)</div>
             </div>
             <div className="flex flex-col gap-[36px]">
@@ -30,7 +30,7 @@ function Post()
                      >
                     </input>
                     <button className=" mr-[54px] ml-[956px] w-[188px] h-[44px] rounded-[15px] bg-[#52BFAF] border-none flex gap-[9px] box-border justify-center">
-                        <img src='images/Sent.svg'></img>
+                        <img src='/images/Sent.svg'></img>
                         <div className="font-[700] text-[24px] text-[#FFFFFF] pt-[7px]">Comment</div>
 
                     </button></>)

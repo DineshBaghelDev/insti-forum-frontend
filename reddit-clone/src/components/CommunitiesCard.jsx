@@ -8,7 +8,7 @@ function CommunitiesCard()
             <div className="flex justify-between mt-[5px] ml-[34px] mr-[39px]">
                 <div className="w-[236px] h-[26px] font-[400] text-[20px] text-[#787272]">Posted by u/tech_enthusiasts</div>
                 <div className="flex w-[161px] h-[26px]">
-                    <img src='images/comment.svg'></img>
+                    <img src='/images/comment.svg'></img>
                     <div className="w-[137px] h-[26px] font-[400] text-[20px]  text-[#787272]">View Comments</div>
                 </div>
             </div>

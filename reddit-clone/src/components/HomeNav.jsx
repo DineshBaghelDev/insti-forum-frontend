@@ -21,7 +21,7 @@ function HomeNav()
                   </div>
                   <button className="w-[108px] h-[39px] rounded-[10px] bg-[#52BFAF]">
                     <span className="flex justify-end items-center">
-                      <img src='images/Logout.svg'></img>
+                      <img src='/images/Logout.svg'></img>
                       <span className='w-[66px] h-[26px] text-[20px] text-[#FFFFFF] font-[700] tracking-wider'>Logout</span>
                     </span>
                   </button>

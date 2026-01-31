@@ -2,14 +2,14 @@ import { useState } from 'react'
 import './App.css'
 import { BrowserRouter, Routes, Route, Link, createBrowserRouter, createRoutesFromElements  } from 'react-router-dom';
 import { RouterProvider } from 'react-router-dom';
-import LogIn from '../Components/LogIn';
-import SignUp from '../Components/SignUP';
-import Home from '../Components/Home';
-import Accounts from '../Components/Accounts';
-import CommunitiesPage from '../Components/CommunitiesPage';
-import { ForumProvider } from '../Components/context';
-import Post from '../Components/Post';
-import CreatePost from '../Components/CreatePost';
+import LogIn from './components/LogIn';
+import SignUp from './components/SignUP';
+import Home from './components/Home';
+import Accounts from './components/Accounts';
+import CommunitiesPage from './components/CommunitiesPage';
+import { ForumProvider } from './components/context';
+import Post from './components/Post';
+import CreatePost from './components/CreatePost';
 function App() {
   const [checkCommunities,SetCommunities]=useState(true)
   const[isOpenCC,setOpenCC]=useState(false)
